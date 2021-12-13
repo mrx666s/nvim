@@ -1,4 +1,4 @@
-call plug#begin('/home/infinity/.local/share/nvim/site/plugged')
+call plug#begin('/home/volt/.local/share/nvim/site/plugged')
 
 Plug 'catppuccin/nvim'
 Plug 'romgrk/barbar.nvim'
