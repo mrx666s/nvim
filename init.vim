@@ -2,6 +2,7 @@ call plug#begin('/home/infinity/.local/share/nvim/site/plugged')
 
 Plug 'catppuccin/nvim'
 Plug 'romgrk/barbar.nvim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'neovim/nvim-lspconfig'
 Plug 'ryanoasis/vim-devicons'
