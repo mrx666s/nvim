@@ -1,0 +1,6 @@
+set recolor
+set guioptions none
+set default-bg '#1e1e28'
+set default-fg '#d7dae0'
+set recolor-lightcolor '#1e1e28'
+set recolor-darkcolor '#d7dae0'
