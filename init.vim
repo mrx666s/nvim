@@ -1,4 +1,4 @@
-call plug#begin('/home/black666/.local/share/nvim/site/plugged')
+call plug#begin('/home/winston/.local/share/nvim/site/plugged')
 
 Plug 'romgrk/barbar.nvim'
 Plug 'FrenzyExists/aquarium-vim'
