@@ -1,12 +1,12 @@
-call plug#begin('/home/winston/.local/share/nvim/site/plugged')
+call plug#begin('/home/kain/.local/share/nvim/site/plugged')
 
 Plug 'romgrk/barbar.nvim'
-Plug 'FrenzyExists/aquarium-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'neovim/nvim-lspconfig'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
+Plug 'ghifarit53/tokyonight-vim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lukas-reineke/indent-blankline.nvim'
@@ -27,8 +27,6 @@ set autoindent
 set smartindent
 set shiftwidth=2
 set termguicolors
-
-colorscheme aquarium
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
