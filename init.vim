@@ -1,7 +1,6 @@
-call plug#begin('/home/kain/.local/share/nvim/site/plugged')
+call plug#begin('/home/yoky/.local/share/nvim/site/plugged')
 
-Plug 'rktjmp/lush.nvim'
-Plug 'ellisonleao/gruvbox.nvim'
+Plug 'arzg/vim-substrata'
 Plug 'romgrk/barbar.nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot' 
@@ -27,9 +26,7 @@ set autoindent
 set smartindent
 set shiftwidth=2
 set termguicolors
-let g:gruvbox_transparent_bg = 1
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
+colorscheme substrata
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
