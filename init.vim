@@ -1,4 +1,4 @@
-call plug#begin('/home/yoky/.local/share/nvim/site/plugged')
+call plug#begin('/home/sazuki/.local/share/nvim/site/plugged')
 
 Plug 'arzg/vim-substrata'
 Plug 'romgrk/barbar.nvim'
