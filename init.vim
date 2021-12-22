@@ -1,12 +1,12 @@
 call plug#begin('/home/kain/.local/share/nvim/site/plugged')
 
+Plug 'rktjmp/lush.nvim'
+Plug 'ellisonleao/gruvbox.nvim'
 Plug 'romgrk/barbar.nvim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'sheerun/vim-polyglot'
-Plug 'folke/tokyonight.nvim'
+Plug 'sheerun/vim-polyglot' 
 Plug 'neovim/nvim-lspconfig'
 Plug 'ryanoasis/vim-devicons'
-Plug 'kyazdani42/nvim-tree.lua'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lukas-reineke/indent-blankline.nvim'
@@ -27,6 +27,9 @@ set autoindent
 set smartindent
 set shiftwidth=2
 set termguicolors
+let g:gruvbox_transparent_bg = 1
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
