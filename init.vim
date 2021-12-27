@@ -1,7 +1,7 @@
-call plug#begin('/home/sazuki/.local/share/nvim/site/plugged')
+call plug#begin('/home/kkking/.local/share/nvim/site/plugged')
 
-Plug 'arzg/vim-substrata'
 Plug 'romgrk/barbar.nvim'
+Plug 'arzg/vim-colors-xcode'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot' 
 Plug 'neovim/nvim-lspconfig'
@@ -26,7 +26,7 @@ set autoindent
 set smartindent
 set shiftwidth=2
 set termguicolors
-colorscheme substrata
+colorscheme xcodedarkhc
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
@@ -64,7 +64,7 @@ lua << END
 require'nvim-tree'.setup {
   disable_netrw       = true,
   hijack_netrw        = true,
-  open_on_setup       = true,
+  open_on_setup       = false,
   ignore_ft_on_setup  = {},
   auto_close          = true,
   open_on_tab         = false,
